@@ -1,0 +1,28 @@
+
+String sentence = "Dette er en sætning, som indeholder mange e'er. Men hvor mange er der?";
+int eCount = 0;
+int i = 0;
+while (i < sentence.length()) {
+  if (sentence.charAt(i) == 'e') {
+    eCount++;
+  }
+  i++;
+}
+
+System.out.println("Antal e’er: " + eCount);
+
+
+
+
+
+String sentence = "I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er et flokdyr.";
+int zCount = 0;
+int i = 0;
+while (i < sentence.length()) {
+  if (sentence.charAt(i) == 'z' || sentence.charAt(i) == 'Z') {
+    zCount++;
+  }
+  i++;
+}
+
+System.out.println("Antal z’er: " + zCount);

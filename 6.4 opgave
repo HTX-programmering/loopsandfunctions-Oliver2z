@@ -1,0 +1,15 @@
+For
+String str = "Hej med dig!";
+for (int i=0; i<5; i++) {
+  System.out.print(str.charAt(i));
+}
+
+
+
+While
+String str = "Hej med dig!";
+int i = 0;
+while (i<5) {
+  System.out.print(str.charAt(i));
+  i++;
+}
