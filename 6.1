@@ -1,0 +1,19 @@
+boolean found = false;
+
+void setup() {
+  size(400, 440);
+}
+
+void draw() {
+  background(255);
+  if (found) {
+    fill(0, 255, 0);
+    textSize(32);
+    text("Found skibidi", width/2 - 50, height/2);
+  }
+}
+
+void mousePressed() {
+  found = true;
+  println("Canvas blev groomet, found er sat til true");
+}
