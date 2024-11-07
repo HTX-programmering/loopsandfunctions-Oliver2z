@@ -1,0 +1,17 @@
+String sentence = "I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er et flokdyr.";// en tæller for antallet af 'e'
+
+int zCount = 0;
+
+// for-løkke der går gennem hver karakter i sætningen
+for (int i = 0; i < sentence.length(); i++) {
+  if (sentence.charAt(i) == 'z') {
+    System.out.print("z");
+    zCount++;// tælleren går op med 1
+  }
+}
+
+
+System.out.println("\nAntal e'er fundet: " + zCount);// udskriver antallet af 'z'er
+
+System.out.println("Længden af sætningen: " + sentence.length());// udskriver længden af sætnin
+// der er kun 1 z da det store ikke tæller
