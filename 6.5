@@ -1,0 +1,16 @@
+String sentence = "Dette er en sætning, som indeholder mange e’er. Men hvor mange er der?";// en tæller for antallet af 'e'
+
+int eCount = 0;
+
+// for-løkke der går gennem hver karakter i sætningen
+for (int i = 0; i < sentence.length(); i++) {
+  if (sentence.charAt(i) == 'e') {
+    System.out.print("e");
+    eCount++;// Øger tælleren med 1
+  }
+}
+
+
+System.out.println("\nAntal e'er fundet: " + eCount);// udskriver antallet af 'e'er
+
+System.out.println("Længden af sætningen: " + sentence.length());// udskriver længden af sætnin
